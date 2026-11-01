@@ -1,0 +1,27 @@
+<!-- Symbole PicaLite en vectoriel : <Image Source="{StaticResource PicaLiteLogo}" Width="64" />
+     En dessous de 48 px, préférer PicaLiteLogoPetit (cadre plus épais, espaces plus larges). -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DrawingImage x:Key="PicaLiteLogo">
+        <DrawingImage.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="Transparent" Geometry="M0,0 H256 V256 H0 Z" />
+                <GeometryDrawing Brush="#7B5CFF" Geometry="M104,48 H208 V152 L184,176 V72 H80 Z" />
+                <GeometryDrawing Brush="#00C2A8" Geometry="M48,104 L72,80 V184 H176 L152,208 H48 Z" />
+                <GeometryDrawing Brush="#FF3B6B" Geometry="M28,28 H112 L28,112 Z" />
+                <GeometryDrawing Brush="#FFB000" Geometry="M228,228 H144 L228,144 Z" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="PicaLiteLogoPetit">
+        <DrawingImage.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="Transparent" Geometry="M0,0 H256 V256 H0 Z" />
+                <GeometryDrawing Brush="#7B5CFF" Geometry="M124,40 H216 V132 L180,168 V76 H88 Z" />
+                <GeometryDrawing Brush="#00C2A8" Geometry="M40,124 L76,88 V180 H168 L132,216 H40 Z" />
+                <GeometryDrawing Brush="#FF3B6B" Geometry="M24,24 H112 L24,112 Z" />
+                <GeometryDrawing Brush="#FFB000" Geometry="M232,232 H144 L232,144 Z" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>

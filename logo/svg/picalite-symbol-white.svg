@@ -1,0 +1,7 @@
+<svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title"><title>PicaLite</title>
+  <title id="title">PicaLite</title>
+  <path id="cadre-haut" fill="#ffffff" d="M104 48 H208 V152 L184 176 V72 H80 Z"/>
+  <path id="cadre-bas" fill="#ffffff" d="M48 104 L72 80 V184 H176 L152 208 H48 Z"/>
+  <path id="coin-haut" fill="#ffffff" d="M28 28 H112 L28 112 Z"/>
+  <path id="coin-bas" fill="#ffffff" d="M228 228 H144 L228 144 Z"/>
+</svg>
